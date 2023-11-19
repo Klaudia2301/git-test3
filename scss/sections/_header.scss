@@ -1,0 +1,27 @@
+.header {
+    padding: 20.5px 0;
+}
+.container {
+}
+.header__content {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    max-width:146px ;
+}
+.menu {
+    
+}
+.menu__list {
+    display: flex;
+    column-gap: 64px;
+}
+.menu__item {
+}
+.link-anchor {
+    color: $colorText;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
