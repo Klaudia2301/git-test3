@@ -110,10 +110,6 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-body > * {
-  flex-shrink: 0; /* sticky footer */
-}
-
 body.active {
   overflow: hidden;
 }
