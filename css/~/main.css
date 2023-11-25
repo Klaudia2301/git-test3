@@ -110,6 +110,10 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+body > * {
+  flex-shrink: 0; /* sticky footer */
+}
+
 body.active {
   overflow: hidden;
 }
@@ -200,4 +204,30 @@ body {
   font-size: 20px;
   font-weight: 700;
   text-transform: capitalize;
+}
+
+.main-title {
+  color: #FF8303;
+  font-size: 64px;
+  font-weight: 900;
+}
+
+.main-subtitle {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.author {
+  max-width: 448px;
+}
+.author .main-title {
+  margin-bottom: 13px;
+}
+.author .main-subtitle {
+  margin-bottom: 14px;
+}
+
+.author__description {
+  font-size: 20px;
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */
