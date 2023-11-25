@@ -1,0 +1,12 @@
+.author {
+    margin-left: 68px;
+    max-height: 478px;
+
+    
+}
+.author__description {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 29.94px;
+}
