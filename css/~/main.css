@@ -230,4 +230,13 @@ body {
 .author__description {
   font-size: 20px;
   font-weight: 400;
+}
+
+.avatar {
+  width: 629px;
+  height: 575px;
+  flex-shrink: 0;
+  position: absolute;
+  right: 113px;
+  top: 73px;
 }/*# sourceMappingURL=main.css.map */
