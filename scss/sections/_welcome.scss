@@ -1,0 +1,10 @@
+.welcome {
+    padding: 72.5px;
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}

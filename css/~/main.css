@@ -180,13 +180,16 @@ body {
 }
 
 .header {
-  padding: 20.5px 0;
+  padding-top: 20.5px;
+  padding-bottom: 25.5px;
 }
 
 .header__content {
+  align-items: center;
   display: flex;
   justify-content: space-between;
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -204,6 +207,15 @@ body {
   font-size: 20px;
   font-weight: 700;
   text-transform: capitalize;
+}
+
+.welcome {
+  padding: 72.5px;
+}
+.welcome__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main-title {
@@ -236,7 +248,4 @@ body {
   width: 629px;
   height: 575px;
   flex-shrink: 0;
-  position: absolute;
-  right: 113px;
-  top: 73px;
 }/*# sourceMappingURL=main.css.map */
